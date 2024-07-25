@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Memuat dataset yang telah dibersihkan
-day_df = pd.read_csv('cleaned_day_data.csv')
-hour_df = pd.read_csv('cleaned_hour_data.csv')
+day_df = pd.read_csv('/cleaned_day_data.csv')
+hour_df = pd.read_csv('/cleaned_hour_data.csv')
 
 # Judul laman Streamlit
 st.title("Analisis Data Bike Sharing (Bike Rental Dataset)")
